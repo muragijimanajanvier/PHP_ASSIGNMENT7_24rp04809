@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.fb-navbar {
+    background: #ffffff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo {
+    color: #1877f2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.search {
+    padding: 7px;
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.nav-center {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-icon {
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #e4e6eb;
+}
+
+.active {
+    background: #cdd6f4;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-circle {
+    background: #1877f2;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+/* LAYOUT */
+.fb-layout {
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    margin-top: 15px;
+    padding: 10px;
+    gap: 20px;
+}
+
+/* LEFT SIDEBAR */
+.left-sidebar .side-item {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* CENTER FEED */
+.center-feed {
+    max-width: 600px;
+}
+
+/* STORIES ROW */
+.stories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.story-card {
+    width: 120px;
+    height: 190px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* CREATE POST BOX */
+.create-post {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    background: #ced4da;
+    border-radius: 50%;
+}
+
+.create-post input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+/* POSTS */
+.post {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* RIGHT SIDEBAR */
+.right-sidebar {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contact {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,100 @@
+/* PAGE BACKGROUND */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #93C5FD, #FBCFE8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 420px;
+    background: #ffffff;
+    padding: 25px 35px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+    text-align: center;
+    animation: fadeIn 0.7s ease;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+    text-decoration: none;
+    background: #ef4444;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.backTofaceBook{
+    text-decoration: none;
+    background: #ef4444;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.backTofaceBook:hover {
+    background: #dc2626;
+}
+
+/* MENU SECTION */
+.menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* MENU BUTTONS */
+.menu a {
+    display: block;
+    text-decoration: none;
+    background-color: #4F46E5;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(79,70,229,0.3);
+    transition: 0.2s ease;
+}
+
+.menu a:hover {
+    background-color: #4338CA;
+    transform: translateY(-2px);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}

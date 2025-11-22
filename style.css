@@ -1,0 +1,93 @@
+/* style.css - Facebook-inspired, not a copy */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 24px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.logo img { height: 48px; }
+
+h2 { color: #1c1e21; text-align:center; margin: 8px 0 16px; }
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:1px solid #ccd0d5;
+  border-radius:6px;
+  font-size:14px;
+  box-sizing:border-box;
+}
+
+button.btn {
+  width:100%;
+  padding:10px;
+  border-radius:6px;
+  border: none;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.btn-primary {
+  background: #1877f2; /* fb blue */
+  color: #fff;
+  margin-top:8px;
+}
+
+.btn-google {
+  background: #fff;
+  color: #444;
+  border:1px solid #ccd0d5;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-top:10px;
+}
+
+.error {
+  background:#ffecec;
+  color:#d8000c;
+  padding:8px;
+  border-radius:6px;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+.notice {
+  background:#e7f3ff;
+  color:#084298;
+  padding:8px;
+  border-radius:6px;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+.topbar {
+  background: #1877f2;
+  color: #fff;
+  padding:12px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.content { padding: 20px; }
+
+.small-link { text-align:center; margin-top:10px; font-size:14px; }
+.small-link a { color: #1877f2; text-decoration:none; }
